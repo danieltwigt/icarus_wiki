@@ -26,6 +26,9 @@ if errorlevel 9009 (
 if "%1" == "" goto help
 
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+
+REM Change file locations for hosting on GitHub pages
+robocopy %BUILDDIR%\html %BUILDDIR% /E /MOVE
 goto end
 
 :help
