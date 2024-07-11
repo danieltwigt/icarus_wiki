@@ -19,13 +19,13 @@ The Trainer will monitor the activities and performance of the Trainee while in 
 
 .. raw:: html
 
-  <embed src="https://github.com/danieltwigt/icarus_wiki/blob/main/Source/pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
+  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
 
 During the development and validation phase of ICARUS, the Trainer will also provide feedback in the following questionnaire:
 
 .. raw:: html
 
-  <embed src="pdf/Questionnaire Instructor.pdf" width="800" height="400" type="application/pdf">
+  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
 
 Evaluation by Trainee
 ---------------------
@@ -34,7 +34,7 @@ During the development and validation phase of ICARUS, the Trainee will provide 
 
 .. raw:: html
 
-  <embed src="pdf/Questionnaire VR user.pdf" width="800" height="400" type="application/pdf">
+  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
 
 .. note::
 
