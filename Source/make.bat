@@ -29,6 +29,7 @@ if "%1" == "" goto help
 
 REM Change file locations for hosting on GitHub pages
 robocopy %BUILDDIR%\html %BUILDDIR% /E /MOVE
+robocopy %SOURCEDIR%\pdf %BUILDDIR%\_pdf
 goto end
 
 :help
