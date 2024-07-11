@@ -1,31 +1,28 @@
 About
 =====
 
+.. _NLR: https://www.nlr.nl
+.. _ATG Europe: https://www.atg-europe.com
+.. _ISISpace: https://www.isispace.nl
 .. autosummary::
    :toctree: generated
 
-Training for assembly procedures mostly makes use of physical models of the actual hardware. Because of this approach, cost of training is generally high and the level of flexibility to accommodate changes in configurations is low. Furthermore, as physical models are manufactured at discrete moments in the development program, the availability of these models and therefore the actual moment of training is predefined and fixed. Moreover, in a commercial space environment where recurrence in hardware production and integration is to be expected, it is essential to retain knowledge of applied processes and procedures in these fields.
+Satellite Assembly, Integration, and Testing (AIT) is a critical phase in satellite manufacturing, ensuring the functionality and reliability of space-bound assets. AIT engineering demands a diverse skill set encompassing system knowledge, procedural expertise, tool proficiency, and safety awareness, among others. However, the high costs and limited availability of required hardware often pose challenges for hands-on training.
 
-When using an immersive tool to capture the knowledge on how to apply these procedures, that data can at a later stage unambiguously be transferred to new project participants or new employees. This has the added benefit of lowering the need for a certain skill level in the labour force which inevitably leads to cost reduction.
-
-ICARUS
-------
-
-Because of the above, ATG Europe, NLR and ISISapce are developing ICARUS, a **Virtual Reality tool aimed at training of mechanical assembly and integration processes**.
-
-.. image:: images/example_image.png
-  :width: 600
+.. image:: images/icarus_transparent.png
+  :width: 800
   :alt: ICARUS, a VR training environment for Assembly, Integration and Testing of small satellites
 
+To address these challanges, `ATG Europe`_, `ISISpace`_ and `NLR`_ have developed ICARUS, an immersive environment that allows for training of AIT procedures in Virtual Reality (VR). This enables users to reduce costs associated with training of (new) employees, enables them to reduce the effort required in the coordination with and training of their industry partners (system level manufacturers, launch organisations and customers), and contributes to risk reduction in the AIT process in general.
 
-ICARUS offers the following key benefits to its users:
+|
 
-– Train mechanical assembly and integration processes in a virtual environment at any moment in time, either guided (instructions) or non-guided (trying-out what is possible). This will provide more flexibility in the timing of the training and much lower cost by not using actual physical flight hardware for training purposes.
+.. image:: images/knowledge_competences.png
+  :width: 800
+  :alt: AIT process phases and operational competences
 
-– Improve knowledge retention of the recurring operations through a virtual representation of the customers procedures. Thereby enabling an easier transfer of knowledge to new employees, increasing their productivity, and lowering the initial skill level required.
+|
 
-Thus, ICARUS will enable users to improve the efficiently, increase the flexibility and decrease the risk of their assembly and integration processes considerably.
+ICARUS offers a holistic training experience of the full AIT process, focusing on the key phases in the AIT process, and operational competencies related to these. Overall competencies which are trained are **knowledge**, **skills** and **attitide**, including various supporting competencies related to these.
 
-Are you interested in the benefits which ICARUS could offer your company? Get in touch:
-
-https://fabform.io/a/create-a-contact-form-with-sphinx/
+ICARUS will enable users to improve the efficiently, increase the flexibility and decrease the risk of their assembly and integration processes considerably. Are you interested in the benefits which ICARUS could offer your company? :ref:`contact`.

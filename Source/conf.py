@@ -33,6 +33,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.githubpages",
     "sphinxcontrib.video",
+    "sphinxcontrib.email",
 ]
 
 intersphinx_mapping = {
@@ -63,6 +64,9 @@ html_theme = "furo"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+# https://pypi.org/project/sphinxcontrib-email/
+email_automode = True
 
 # Adding custom css file (https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html)
 # NOTE: css does not seem to be copied to build\html\_static\css\ so do manually if required

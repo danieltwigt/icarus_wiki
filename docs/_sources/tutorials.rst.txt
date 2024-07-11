@@ -1,7 +1,7 @@
-.. _tutorial:
+.. _tutorials:
 
-Tutorial
-========
+Tutorials
+=========
 
 .. autosummary::
    :toctree: generated

@@ -25,7 +25,7 @@ During the development and validation phase of ICARUS, the Trainer will also pro
 
 .. raw:: html
 
-  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
+  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Questionnaire%20Instructor.pdf" width="800" height="400" type="application/pdf">
 
 Evaluation by Trainee
 ---------------------
@@ -34,7 +34,7 @@ During the development and validation phase of ICARUS, the Trainee will provide 
 
 .. raw:: html
 
-  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Observation%20Form.pdf" width="800" height="400" type="application/pdf">
+  <embed src="https://danieltwigt.github.io/icarus_wiki/_pdf/Questionnaire%20VR%20user.pdf" width="800" height="400" type="application/pdf">
 
 .. note::
 
