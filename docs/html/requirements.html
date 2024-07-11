@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="author" title="About these documents" href="#" /><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" />
+<link rel="author" title="About these documents" href="about.html" /><link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Setup Guide" href="setup.html" /><link rel="prev" title="Home" href="index.html" />
 
     <!-- Generated with Sphinx 7.3.7 and Furo 2024.05.06 -->
-        <title>About - ICARUS documentation</title>
+        <title>System Requirements - ICARUS documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=387cc868" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=36a5483c" />
@@ -192,7 +192,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -212,8 +212,14 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
-  <ul>
+  <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Setup Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="starting.html">Starting ICARUS Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="evaluation.html">Evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
 </ul>
 
 </div>
@@ -234,7 +240,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="_sources/about.rst.txt" title="View this page">
+  <a class="muted-link" href="_sources/requirements.rst.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -248,34 +254,72 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="about">
-<h1>About<a class="headerlink" href="#about" title="Link to this heading">¶</a></h1>
+          <section id="system-requirements">
+<span id="id1"></span><h1>System Requirements<a class="headerlink" href="#system-requirements" title="Link to this heading">¶</a></h1>
 <div class="table-wrapper autosummary longtable docutils container">
 <table class="autosummary longtable docutils align-default">
 <tbody>
 </tbody>
 </table>
 </div>
-<p>Training for assembly procedures mostly makes use of physical models of the actual hardware. Because of this approach, cost of training is generally high and the level of flexibility to accommodate changes in configurations is low. Furthermore, as physical models are manufactured at discrete moments in the development program, the availability of these models and therefore the actual moment of training is predefined and fixed. Moreover, in a commercial space environment where recurrence in hardware production and integration is to be expected, it is essential to retain knowledge of applied processes and procedures in these fields.</p>
-<p>When using an immersive tool to capture the knowledge on how to apply these procedures, that data can at a later stage unambiguously be transferred to new project participants or new employees. This has the added benefit of lowering the need for a certain skill level in the labour force which inevitably leads to cost reduction.</p>
-<section id="icarus">
-<h2>ICARUS<a class="headerlink" href="#icarus" title="Link to this heading">¶</a></h2>
-<p>Because of the above, ATG Europe, NLR and ISISapce are developing ICARUS, a <strong>Virtual Reality tool aimed at training of mechanical assembly and integration processes</strong>.</p>
-<a class="reference internal image-reference" href="_images/example_image.png"><img alt="ICARUS, a VR training environment for Assembly, Integration and Testing of small satellites" src="_images/example_image.png" style="width: 600px;" />
+<p>ICARUS runs as stand-alone, single user tool, applying a tethered VR headset. The hardware setup is as follows:</p>
+<a class="reference internal image-reference" href="_images/ICARUS_HW_setup.jpg"><img alt="Alternative text" src="_images/ICARUS_HW_setup.jpg" style="width: 800px;" />
 </a>
-<p>ICARUS offers the following key benefits to its users:</p>
-<p>– Train mechanical assembly and integration processes in a virtual environment at any moment in time, either guided (instructions) or non-guided (trying-out what is possible). This will provide more flexibility in the timing of the training and much lower cost by not using actual physical flight hardware for training purposes.</p>
-<p>– Improve knowledge retention of the recurring operations through a virtual representation of the customers procedures. Thereby enabling an easier transfer of knowledge to new employees, increasing their productivity, and lowering the initial skill level required.</p>
-<p>Thus, ICARUS will enable users to improve the efficiently, increase the flexibility and decrease the risk of their assembly and integration processes considerably.</p>
-<p>Are you interested in the benefits which ICARUS could offer your company? Get in touch:</p>
-<p><a class="reference external" href="https://fabform.io/a/create-a-contact-form-with-sphinx/">https://fabform.io/a/create-a-contact-form-with-sphinx/</a></p>
-</section>
+<p>ICARUS is developed and tested for the Valve Index HMD and Motion Controllers. For more information on the Valve Index, see <a class="reference external" href="https://store.steampowered.com/valveindex">Valve Index</a>.</p>
+<p>Minimum <strong>system requirements</strong> to run ICARUS are:</p>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Component</p></th>
+<th class="head"><p>Requirement</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Processor</p></td>
+<td><p>Dual Core with hyperthreading, or better</p></td>
+</tr>
+<tr class="row-odd"><td><p>RAM</p></td>
+<td><p>8 GB, or more</p></td>
+</tr>
+<tr class="row-even"><td><p>Video card</p></td>
+<td><p>NVIDIA GeForce GTX 970 ,AMD RX480, or better</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Software <strong>dependencies</strong> are:</p>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default" style="width: 100%">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Link</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SteamVR</p></td>
+<td><p><a class="reference external" href="https://store.steampowered.com/app/250820/SteamVR">SteamVR</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development.</p>
+</div>
 </section>
 
         </article>
@@ -283,8 +327,26 @@
       <footer>
         
         <div class="related-pages">
-          
-          
+          <a class="next-page" href="setup.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Setup Guide</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
         </div>
         <div class="bottom-of-page">
           <div class="left-details">
@@ -303,27 +365,8 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer">
+    <aside class="toc-drawer no-toc">
       
-      
-      <div class="toc-sticky toc-scroll">
-        <div class="toc-title-container">
-          <span class="toc-title">
-            On this page
-          </span>
-        </div>
-        <div class="toc-tree-container">
-          <div class="toc-tree">
-            <ul>
-<li><a class="reference internal" href="#">About</a><ul>
-<li><a class="reference internal" href="#icarus">ICARUS</a></li>
-</ul>
-</li>
-</ul>
-
-          </div>
-        </div>
-      </div>
       
       
     </aside>

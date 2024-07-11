@@ -27,9 +27,8 @@ Step 3: Follow ICARUS tutorials (optional)
 
 If applicable:
 
-Option 1: the Trainer will give a live demonstration of relevant interactions which the Trainee should be aware of before starting the training.
-
-Option 2: the Trainee will watch the tutorial movies as available at :ref:`tutorial`.
+* Option 1: the Trainer will give a live demonstration of relevant interactions which the Trainee should be aware of before starting the training.
+* Option 2: the Trainee will watch the tutorial movies as available at :ref:`tutorial`.
 
 
 Step 4: Check evaluation forms
