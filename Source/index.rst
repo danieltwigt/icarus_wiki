@@ -8,10 +8,6 @@ Home
 
 **ICARUS** is a VR-based training environment for Assembly, Integration and Testing (AIT) of satellites, developed by `ATG Europe`_, `ISISpace`_ and `NLR`_. This Wiki contains information related to usage of ICARUS.
 
-.. note::
-
-   This project is under active development.
-
 Contents
 --------
 
@@ -27,3 +23,7 @@ Contents
    cleanroom
    evaluation
    contact
+
+.. note::
+
+   This project is under active development.
