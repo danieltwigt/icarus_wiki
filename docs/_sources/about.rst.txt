@@ -26,3 +26,7 @@ To address these challanges, `ATG Europe`_, `ISISpace`_ and `NLR`_ have develope
 ICARUS offers a holistic training experience of the full AIT process, focusing on the key phases in the AIT process, and operational competencies related to these. Overall competencies which are trained are **knowledge**, **skills** and **attitide**, including various supporting competencies related to these.
 
 ICARUS will enable users to improve the efficiently, increase the flexibility and decrease the risk of their assembly and integration processes considerably. Are you interested in the benefits which ICARUS could offer your company? :ref:`contact`.
+
+.. note::
+
+   This project is under active development.

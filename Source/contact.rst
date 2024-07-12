@@ -28,3 +28,9 @@ Curious about the benefits ICARUS can offer you and your organisation? You can g
 |
 
 Or by contacting us by :email:`e-mail <daniel.twigt@atg-europe.com>`.
+
+|
+
+.. note::
+
+   This project is under active development.  
